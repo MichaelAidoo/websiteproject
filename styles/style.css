@@ -1,0 +1,153 @@
+nav {
+    background-color: grey;
+    padding: 5px;
+    border:1px solid green ;
+    border-radius: 5px ;
+}
+
+nav ul li{
+    list-style-type: none;
+    background-color: #B2B2B2;
+    display:inline;
+    padding: 15px;
+    border: 1px solid yellow;
+    border-radius: 5px;
+}
+
+nav ul li a {
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+nav ul li:hover{
+    background-color: purple;
+}
+nav ul {
+    text-align: center;
+    font-size: 1.2em
+}
+#active {
+    background-color: darkseagreen;
+}
+.logo{
+    float: left; height: 60px;width: 60px;
+}
+header{
+    background-image: url(../image/header_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    color:#722F37;
+    border: 1px solid blue;
+}
+
+#bigPic{
+    width: 100%;
+}
+.showimages{
+    float: left;
+    width: 30%;
+    border: 2px solid white;
+    margin: 0 10px 0 10px;}     /*top margin is  0
+                                   right margin is 10px
+                                  bottom margin is 0
+                                   left margin is 10px*/
+
+
+section.manager{
+    max-height: 350px;
+    overflow: auto;
+}                                  
+.col_detail{
+    column-count: 3;
+    column-gap: 50px;
+    padding: 2px;
+    text-align: justify;
+} 
+footer nav{
+    background-color: white;
+    color: white;
+    border: none;
+}
+footer nav ul li{
+    background-color: white;
+    padding: 5px;
+    border:1px solid ;
+    border-radius: 5px ;
+    
+}
+footer ul li a{
+    color: black;
+    text-decoration: none;
+    display: inline;
+    border: none   ;
+}
+footer{
+    clear: both;
+    border: 1px solid orange;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    text-align: center;
+}
+aside{
+
+    border:1px solid rgb(255, 0, 0);
+    float: right;
+    width: 18%;
+}
+#Maincontent{
+    float: left;
+    width: 80%;
+    border: 1px solid rgb(0, 245, 29);
+}
+aside ul li{
+    list-style-type: none;
+    text-decoration: none;
+}
+aside ul li a{
+    color: #009dff;
+    text-decoration: none;
+}
+body{
+    font-family: verdana;
+    background-color: black;
+    color: white;
+
+}
+p{
+    text-align: justify;
+    padding: 2px;
+}
+.course{
+    text-align: center;
+    border: 1px solid white;
+    padding: 10px;
+}
+.videoContent{
+    float:right;
+    width:49%;
+    border: 2px solid white;
+    max-height: 450px;
+    min-height: 450px;
+    overflow: auto;
+    
+}
+.backgroundImageB{
+    background-image: url(../image/bacon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.backgroundImageC{
+    background-image: url(../image/carrots.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.backgroundImageE{
+    background-image: url(../image/eggs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font: black;
+}
