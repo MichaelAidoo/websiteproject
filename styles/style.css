@@ -32,12 +32,13 @@ nav ul {
     float: left; height: 60px;width: 60px;
 }
 header{
-    background-image: url(../image/header_image.jpg);
+    background-image: url(../image/tsquare.webp);
     background-repeat: no-repeat;
     background-size: cover;
     height: 200px;
     color:#722F37;
     border: 1px solid blue;
+    
 }
 
 #bigPic{
@@ -47,14 +48,14 @@ header{
     float: left;
     width: 30%;
     border: 2px solid white;
-    margin: 0 10px 0 10px;}     /*top margin is  0
+    margin: 10px 10px 10px 10px;}     /*top margin is  0
                                    right margin is 10px
                                   bottom margin is 0
                                    left margin is 10px*/
 
 
 section.manager{
-    max-height: 350px;
+    
     overflow: auto;
 }                                  
 .col_detail{
@@ -98,11 +99,7 @@ aside{
     float: right;
     width: 18%;
 }
-#Maincontent{
-    float: left;
-    width: 80%;
-    border: 1px solid rgb(0, 245, 29);
-}
+
 aside ul li{
     list-style-type: none;
     text-decoration: none;
@@ -135,10 +132,13 @@ p{
     overflow: auto;
     
 }
-.backgroundImageB{
-    background-image: url(../image/bacon.jpg);
+.backgroundImage{
+    background-image: url(../image/tsquare.webp);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
+    
+    
+
 }
 .backgroundImageC{
     background-image: url(../image/carrots.jpg);
@@ -150,4 +150,12 @@ p{
     background-repeat: no-repeat;
     background-size: cover;
     font: black;
+}
+H1{
+    
+    color: black;
+    font-size: 50px;
+}
+a {
+    color: yellow;
 }
