@@ -19,7 +19,7 @@ nav ul li a {
     text-decoration: none;
 }
 nav ul li:hover{
-    background-color: purple;
+    background-color: yellow;
 }
 nav ul {
     text-align: center;
@@ -67,14 +67,15 @@ section.manager{
     text-align: justify;
 } 
 footer nav{
-    background-color: white;
+    background-color: red;
     color: white;
     border: none;
+    border-radius: 5px;
 }
 footer nav ul li{
-    background-color: white;
+    background-color: gold;
     padding: 5px;
-    border:1px solid ;
+    border:1px solid black;
     border-radius: 5px ;
     
 }
@@ -94,6 +95,7 @@ footer{
     width: 100%;
     background-color: grey;
     text-align: center;
+    border-radius: 5px;
 }
 aside{
 
