@@ -113,7 +113,7 @@ aside ul li a{
     text-decoration: none;
 }
 body{
-    font-family: verdana;
+    font-family: 'roboto',sans-serif;
     background-color: gold;
     color: black;
 
@@ -172,3 +172,23 @@ h2
 {
     color: red;
 }
+
+.picBig
+{   
+    
+    position: absolute;
+    width: 0px;
+    -webkit-transition: width 0.3s linear 0s;
+    transition: width 0.3s linear 0s; z-index: 10;
+    
+    
+    
+}
+.pic:hover + .picBig{
+    width: 25%;
+    
+
+}
+
+
+
