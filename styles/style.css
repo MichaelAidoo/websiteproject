@@ -43,17 +43,25 @@ header{
     
 }
 
-#bigPic{
-    width: 100%;
+.bigPic{
+    width:100%;
 }
 .showimages{
     float: left;
     width: 30%;
     border: 2px solid black;
-    margin: 10px 10px 10px 10px;}     /*top margin is  0
+    margin: 10px 10px 10px 10px;
+}                                 /*top margin is  0
                                    right margin is 10px
                                   bottom margin is 0
                                    left margin is 10px*/
+.pres{
+    float: right;
+    width: 30%;
+    border: 2px solid black;
+    margin: 10px 10px 10px 10px;
+}
+    
 
 
 section.manager{
@@ -93,9 +101,10 @@ footer{
     position: relative;
     bottom: 0;
     width: 100%;
-    background-color: grey;
+    background-color: black;
     text-align: center;
     border-radius: 5px;
+    color: white;
 }
 aside{
 
@@ -192,3 +201,16 @@ h2
 
 
 
+table{
+    width: 100%;
+    border:1px solid black;
+    border-collapse: collapse;
+    font-size: 20px;
+    margin: 20px;
+    padding: 2%;
+}
+
+th,td,tr{
+    border: 1px solid black;
+    text-align:left;
+}
