@@ -29,7 +29,7 @@ nav ul {
 
 
 .bigPic{
-    width:100%;
+    width: 75%;
 }
 .showimages{
     float: left;
@@ -153,7 +153,7 @@ p{
 H1{
     
     color: black;
-    
+    font-family: "Times New Roman", Times, serif;
     font-size: 50px;
 }
 a {
@@ -200,3 +200,13 @@ th,td,tr{
     border: 1px solid black;
     text-align:left;
 }
+.c2{
+    float: right;
+    height: 30px;
+    width: 30px;
+ }
+ .c1{
+    float: left;
+    height: 30px;
+    width: 30px;
+ }
