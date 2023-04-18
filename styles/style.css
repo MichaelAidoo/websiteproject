@@ -65,7 +65,7 @@ section.manager{
     
     overflow: auto;
 }                                  
-.col_detail{
+.column{
     column-count: 3;
     column-gap: 50px;
     padding: 2px;
